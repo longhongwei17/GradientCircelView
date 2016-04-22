@@ -15,6 +15,7 @@
 		54646E831CC9F09A00066FD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54646E811CC9F09A00066FD9 /* LaunchScreen.storyboard */; };
 		54646E8E1CC9F09A00066FD9 /* GradientCircelViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54646E8D1CC9F09A00066FD9 /* GradientCircelViewTests.m */; };
 		54646E991CC9F09A00066FD9 /* GradientCircelViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54646E981CC9F09A00066FD9 /* GradientCircelViewUITests.m */; };
+		54646EA81CC9F0C100066FD9 /* DDGradientCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 54646EA71CC9F0C100066FD9 /* DDGradientCircleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		54646E941CC9F09A00066FD9 /* GradientCircelViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GradientCircelViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		54646E981CC9F09A00066FD9 /* GradientCircelViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GradientCircelViewUITests.m; sourceTree = "<group>"; };
 		54646E9A1CC9F09A00066FD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54646EA61CC9F0BA00066FD9 /* DDGradientCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDGradientCircleView.h; sourceTree = "<group>"; };
+		54646EA71CC9F0C100066FD9 /* DDGradientCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDGradientCircleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		54646E721CC9F09A00066FD9 /* GradientCircelView */ = {
 			isa = PBXGroup;
 			children = (
+				54646EA71CC9F0C100066FD9 /* DDGradientCircleView.m */,
+				54646EA61CC9F0BA00066FD9 /* DDGradientCircleView.h */,
 				54646E761CC9F09A00066FD9 /* AppDelegate.h */,
 				54646E771CC9F09A00066FD9 /* AppDelegate.m */,
 				54646E791CC9F09A00066FD9 /* ViewController.h */,
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54646EA81CC9F0C100066FD9 /* DDGradientCircleView.m in Sources */,
 				54646E7B1CC9F09A00066FD9 /* ViewController.m in Sources */,
 				54646E781CC9F09A00066FD9 /* AppDelegate.m in Sources */,
 				54646E751CC9F09A00066FD9 /* main.m in Sources */,
